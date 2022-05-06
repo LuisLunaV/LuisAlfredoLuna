@@ -17,12 +17,15 @@
 .nombre-logo{
     font-size: 1.5em;
     margin: 2rem 1.5rem;
-
 }
 .nav-principal{
     font-size: 1.2rem;
     justify-content: space-evenly;
     width: 80%;
+}
+
+.nav-contenedor{
+    height: 9rem;
 }
     
 /* Seccion sobre mi */
