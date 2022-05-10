@@ -357,7 +357,9 @@ font-weight: 500;
 }
 
 /* mis servicios */
+
 .contenedor-mis-servicios{
+  overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2, 50rem);
   column-gap: 1rem;
