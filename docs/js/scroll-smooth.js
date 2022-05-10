@@ -19,7 +19,11 @@ window.onload = () => {
     proyectos.addEventListener("click", () => {
       scrollSuave("#proyectos", 700, 0);
     });
-    let contacto = links[4];
+    let servicios = links[4];
+    servicios.addEventListener("click", () => {
+      scrollSuave("#servicios", 700, 0);
+    });
+    let contacto = links[5];
     contacto.addEventListener("click", () => {
       scrollSuave("#contacto", 1000, 0);
     });

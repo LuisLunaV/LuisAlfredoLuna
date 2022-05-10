@@ -29,7 +29,6 @@ img {
 i{
   color: white;
   text-shadow: -6px 1px 2px rgba(0, 0, 0, 0.58);
-
 }
 a {
   text-decoration: none;
@@ -55,6 +54,10 @@ footer{
 .amarillo-mate {
   background-image: linear-gradient(62deg, #f0db4f 0%, #ffc52d 100%);
 }
+
+.bordes{
+  border-radius: 1rem;
+}
 .centrar-column-flex{
   display: flex;
   flex-direction: column;
@@ -62,10 +65,18 @@ footer{
   align-items: center;
 }
 
+.pading-izq-der{
+  padding:  2rem;
+}
+
 .centrar-texto {
   text-align: center;
 }
 
+.altura-30{
+  overflow: hidden;
+  height: 40rem;
+}
 .color-blanco {
   color: #fff;
 }
@@ -77,9 +88,18 @@ footer{
   font-family: "Open Sans";
 }
 
+.tamaño-ubuntu-weight {
+font-weight: 500;
+}
 .sombre-de-texto {
   text-shadow: -6px 1px 2px rgba(0, 0, 0, 0.58);
 }
+.sombra-de-texto-2rem{
+
+  text-shadow: -3px 0px 2px rgba(0, 0, 0, 0.58);
+
+}
+
 .tamaño-de-fuente-2 {
   font-size: 2rem;
 }
@@ -336,6 +356,32 @@ footer{
   justify-content: space-evenly;
 }
 
+/* mis servicios */
+.contenedor-mis-servicios{
+  display: grid;
+  grid-template-columns: repeat(2, 50rem);
+  column-gap: 1rem;
+}
+
+.contenedor-de-servicio{
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: .5s;
+}
+
+.contenedor-de-servicio:hover{
+  transform: scale(1.02);
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.contenedor-de-servicio:hover .icono-servicio{
+  color:#F1C40F ;
+}
+
+.titulo-mis-servicios{
+  padding-top: 7rem;
+}
 /* contacto */
 .mi-contacto{
   overflow: hidden;

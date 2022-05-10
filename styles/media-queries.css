@@ -1,3 +1,4 @@
+/* //Resolcion para dispositivos moviles pequeños: */
 @media (min-width:200px) and (max-width:375px){
 
     /* Globales */
@@ -85,15 +86,35 @@
     flex-direction: column;
     align-items: flex-start;
 }
+.pie-de-pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .pie-de-pagina p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
+
+  /* mis servicios */
+.mis-servicios{
+    height: auto;
+    padding-bottom: 2rem;
+}
+.contenedor-mis-servicios{
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+  .contenedor-de-servicio{
+      height: auto;
+      font-size: 1.7rem;
+  }
+
 }
 
 
 
 
-/* //Resolcion para dispositivos moviles muy pequeños: */
+/* //Resolcion para dispositivos moviles pequeños: */
 @media (min-width:376px) and (max-width:575px){
 
     /* Globales */
@@ -162,9 +183,22 @@
 .pie-de-pagina p{
     font-size: 1.5rem;
   }
+
+  /* mis servicios */
+.mis-servicios{
+    height: auto;
+    padding-bottom: 2rem;
+}
+.contenedor-mis-servicios{
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+  .contenedor-de-servicio{
+      height: auto;
+  }
 }
 
-/* //Resolcion para dispositivos moviles pequeños: */
+/* //Resolcion para dispositivos moviles medianos: */
 @media(min-width:576px) and (max-width:859px){
     /* Globales */
     header{
@@ -190,7 +224,7 @@
 
     }
     .nav-principal{
-        width: 70%;
+        width: 85%;
     }
 
 /* Seccion sobre mi */
@@ -216,6 +250,16 @@
 
 }
 
+/* mis servicios */
+.mis-servicios{
+    height: auto;
+    padding-bottom: 2rem;
+}
+.contenedor-mis-servicios{
+    grid-template-columns: 50rem;
+    row-gap: 1rem;
+  }
+
 }
 
 /* //Resolcion para tablets: */
@@ -236,7 +280,9 @@ h3{
     margin: 1.5rem 1.5rem;
     font-size: 3rem;
 }
-
+.nav-principal{
+    width: 80%;
+}
 /* Tecnologias */
 .mis-tecnologias{
     height: auto;
@@ -253,9 +299,17 @@ h3{
 
 }
 
+/* mis servicios */
+.mis-servicios{
+    height: auto;
+    padding-bottom: 2rem;
+}
+.contenedor-mis-servicios{
+    grid-template-columns: 50rem;
+    row-gap: 1rem;
+  }
+
 }
 
 /* //Resolcion para pc de escritorio: */
-/* @media(min-width:972px){
-
-} */
+/* @media(min-width:972px){} */

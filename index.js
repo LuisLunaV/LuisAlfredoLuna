@@ -11,6 +11,7 @@ const crearMenuHtml =()=>{
         <a class="fuente-ubuntu link color-blanco fuente-ubuntu" href="#informacion"><li>Sobre mi</li></a>
         <a class="fuente-ubuntu link color-blanco fuente-ubuntu" href="#tecnologias"><li>Tecnologias</li></a>
         <a class="fuente-ubuntu link color-blanco fuente-ubuntu" href="#proyectos"><li>Proyectos</li></a>
+        <a class="fuente-ubuntu link color-blanco fuente-ubuntu" href="#servicios"><li>Mis servicios</li></a>
         <a class="fuente-ubuntu link color-blanco fuente-ubuntu" href="#contacto"><li>Contacto</li></a>
         </ul>
       </nav>
