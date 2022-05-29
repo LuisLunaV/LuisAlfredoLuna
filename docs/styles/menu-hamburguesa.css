@@ -21,7 +21,7 @@
     display: inline-block;
     border: none;
     border-radius: 5px;
-    width: 10rem;
+    width: 7.7rem;
     height: 100%;
     line-height: 30px;
     font-weight: bold;
@@ -52,7 +52,6 @@
   li {
     display: block;
     background-color: rgba(0, 0, 0, 0.7);
-
     margin: 0;
     padding: 10px;
     list-style: none;

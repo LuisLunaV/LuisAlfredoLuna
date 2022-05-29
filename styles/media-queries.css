@@ -14,20 +14,20 @@
     
     }
 /* Navegacion */
+.nav-contenedor{
+    height: 6rem;
+}
 
 .nombre-logo{
-    font-size: 1.5em;
-    margin: 2rem 1.5rem;
+    display: none;
 }
+
 .nav-principal{
     font-size: 1.2rem;
     justify-content: space-evenly;
     width: 80%;
 }
 
-.nav-contenedor{
-    height: 9rem;
-}
     
 /* Seccion sobre mi */
 .sobre-mi{
@@ -129,11 +129,11 @@
     
     }
 /* Navegacion */
-
+.nav-contenedor{
+    height: 7rem;
+}
 .nombre-logo{
-    font-size: 1.2em;
-    margin: 2.8rem 1.5rem;
-
+display: none;
 }
 .nav-principal{
     font-size: 1.2rem;
