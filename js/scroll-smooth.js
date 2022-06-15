@@ -8,20 +8,20 @@ window.onload = () => {
   
     let informacion = links[1];
     informacion.addEventListener("click", () => {
-      scrollSuave("#informacion", 700, 0);
+      scrollSuave("#informacion", 900, 0);
     });
   
     let tecnologias = links[2];
     tecnologias.addEventListener("click", () => {
-      scrollSuave("#tecnologias", 700, 0);
+      scrollSuave("#tecnologias", 900, 0);
     });
     let proyectos = links[3];
     proyectos.addEventListener("click", () => {
-      scrollSuave("#proyectos", 700, 0);
+      scrollSuave("#proyectos", 900, 0);
     });
     let servicios = links[4];
     servicios.addEventListener("click", () => {
-      scrollSuave("#servicios", 700, 0);
+      scrollSuave("#servicios", 900, 0);
     });
     let contacto = links[5];
     contacto.addEventListener("click", () => {
