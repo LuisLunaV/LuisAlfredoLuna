@@ -24,19 +24,24 @@ const crearMenuHtml =()=>{
     navMenu.innerHTML = html;
 }
 
+//Funcion que nos ayuda a detectar un cambio de tamaño en la pantalla.
+// window.addEventListener('resize', ( )=>{
 
-if(screen.width <= 559){
-
-
-    do{
-        
-        navMenu.removeChild(navMenu.firstElementChild);
-
-    }while(navMenu.firstElementChild);
-        // (navMenu.firstElementChild === true)? '' : crearBurgerHtml();
-
-        (navMenu.firstElementChild === true)?'' :crearMenuHtml();
+    if(screen.width <= 559){
 
 
-}
+        do{
+            
+            navMenu.removeChild(navMenu.firstElementChild);
+    
+        }while(navMenu.firstElementChild);
+    
+            (navMenu.firstElementChild === true)?'' :crearMenuHtml();
+    
+    
+    }
+
+// });
+
+
 

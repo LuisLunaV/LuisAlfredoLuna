@@ -115,7 +115,7 @@
 
 
 /* //Resolcion para dispositivos moviles pequeños: */
-@media (min-width:376px) and (max-width:575px){
+@media (min-width:376px) and (max-width:602px){
 
     /* Globales */
     header{
@@ -136,6 +136,7 @@
 display: none;
 }
 .nav-principal{
+    display: none;
     font-size: 1.2rem;
     justify-content: space-evenly;
     width: 80%;
@@ -199,7 +200,7 @@ display: none;
 }
 
 /* //Resolcion para dispositivos moviles medianos: */
-@media(min-width:576px) and (max-width:859px){
+@media(min-width:603px) and (max-width:859px){
     /* Globales */
     header{
         width: 30%;
