@@ -13,6 +13,10 @@
         font-size: 3rem !important;
     
     }
+
+    footer{
+        height: 10vh !important;
+    }
 /* Navegacion */
 .nav-contenedor{
     height: 6rem;
@@ -69,7 +73,7 @@
 
 /* Contacto */
 .mi-contacto{
-    height: 85vh;
+    height: 90vh;
 }
 .contacto-titulos{
     margin-bottom: 5rem;
@@ -81,7 +85,7 @@
     font-size: 2.5rem !important;
 }
 .redes-de-contacto{
-
+    padding-top: 3rem !important;
     width: auto;
     flex-direction: column;
     align-items: flex-start;
@@ -109,6 +113,20 @@
       font-size: 1.7rem;
   }
 
+    /* Modal */
+    .formulario{
+        width: 31rem;
+      }
+    
+      .contenedor-nombre-email{
+        align-self: flex-start !important;
+        flex-direction: column;
+      }
+    
+      .text-comentario{
+        width: 29rem;
+      }
+
 }
 
 
@@ -128,6 +146,11 @@
         font-size: 3rem !important;
     
     }
+
+    footer{
+        height: 10vh !important;
+    }
+
 /* Navegacion */
 .nav-contenedor{
     height: 7rem;
@@ -167,26 +190,8 @@ display: none;
     grid-template-columns: 1fr;
 
 }
-
-/* Contacto */
-.mi-contacto{
-    height: 85vh;
-}
-.contacto-titulos{
-    margin-bottom: 5rem;
-}
-.redes-de-contacto{
-
-    width: auto;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.pie-de-pagina p{
-    font-size: 1.5rem;
-  }
-
   /* mis servicios */
-.mis-servicios{
+  .mis-servicios{
     height: auto;
     padding-bottom: 2rem;
 }
@@ -197,6 +202,38 @@ display: none;
   .contenedor-de-servicio{
       height: auto;
   }
+
+  /* Modal */
+  .formulario{
+    width: 33rem;
+  }
+
+  .contenedor-nombre-email{
+    align-self: flex-start !important;
+    flex-direction: column;
+  }
+
+  .text-comentario{
+    width: 30rem;
+  }
+/* Contacto */
+.mi-contacto{
+    height: 90vh;
+}
+.contacto-titulos{
+    margin-bottom: 6rem;
+}
+.redes-de-contacto{
+    margin-bottom: 2rem !important;
+    width: auto;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.pie-de-pagina p{
+    font-size: 1.5rem;
+  }
+
+
 }
 
 /* //Resolcion para dispositivos moviles medianos: */
@@ -259,6 +296,11 @@ display: none;
 .contenedor-mis-servicios{
     grid-template-columns: 50rem;
     row-gap: 1rem;
+  }
+
+  /* Contactos */
+  .redes-de-contacto{
+    text-align: center;
   }
 
 }

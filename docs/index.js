@@ -1,3 +1,6 @@
+import { enviarCorreo } from './js/mail.js';
+import { ventanaModal } from './js/ventana-modal.js';
+
 const navMenu = document.querySelector('.nav-contenedor');
 
 const crearMenuHtml =()=>{
@@ -27,7 +30,7 @@ const crearMenuHtml =()=>{
 //Funcion que nos ayuda a detectar un cambio de tamaño en la pantalla.
 // window.addEventListener('resize', ( )=>{
 
-    if(screen.width <= 559){
+    if(screen.width <= 600){
 
 
         do{
@@ -41,6 +44,8 @@ const crearMenuHtml =()=>{
     
     }
 
+    ventanaModal();
+    enviarCorreo();
 // });
 
 
