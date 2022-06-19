@@ -114,6 +114,10 @@
   }
 
     /* Modal */
+    .contenedor-modal{
+        margin-top: 8rem;
+    }
+
     .formulario{
         width: 31rem;
       }
