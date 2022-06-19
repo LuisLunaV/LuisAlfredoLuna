@@ -115,7 +115,8 @@
 
     /* Modal */
     .contenedor-modal{
-        margin-top: 8rem !important;
+        height: 100vh !important;
+        margin:0 !important;
     }
 
     .formulario{
