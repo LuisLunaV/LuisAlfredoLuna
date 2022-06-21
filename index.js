@@ -32,12 +32,6 @@ const crearMenuHtml =()=>{
 
     if(screen.width <= 600){
 
-
-        do{
-            
-            navMenu.removeChild(navMenu.firstElementChild);
-    
-        }while(navMenu.firstElementChild);
     
             (navMenu.firstElementChild === true)?'' :crearMenuHtml();
     

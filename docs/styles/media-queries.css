@@ -1,5 +1,5 @@
 /* //Resolcion para dispositivos moviles pequeños: */
-@media (min-width:200px) and (max-width:375px){
+@media (min-width:100px) and (max-width:375px){
 
     /* Globales */
 
@@ -27,6 +27,7 @@
 }
 
 .nav-principal{
+    visibility: hidden;
     font-size: 1.2rem;
     justify-content: space-evenly;
     width: 80%;
@@ -167,6 +168,7 @@
 display: none;
 }
 .nav-principal{
+    visibility: hidden;
     display: none;
     font-size: 1.2rem;
     justify-content: space-evenly;
