@@ -538,14 +538,6 @@ width: auto;
   background:#d35400;
 };
 
-/* ventana de confirmacion de envio */
-
-/* .mensaje-de-envio{
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .scale-up-center {
   animation: scale-up-center 1s;
