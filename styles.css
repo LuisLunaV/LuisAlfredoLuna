@@ -442,13 +442,16 @@ footer {
 .no-visible{
   visibility:hidden;
 }
+
+.posicion-index{
+  position: absolute;
+  z-index: 3;
+}
 /* ventana modal */
 .contenedor-modal{
   align-self: flex-start;
   background-color: rgba(0, 0, 0, 0.5);
   margin-top: 12.5rem;
-  position: absolute;
-  z-index: 3;
   height: 100%;
   width: 0;
   overflow: hidden;
@@ -535,6 +538,14 @@ width: auto;
   background:#d35400;
 };
 
+/* ventana de confirmacion de envio */
+
+/* .mensaje-de-envio{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 
 .scale-up-center {
   animation: scale-up-center 1s;

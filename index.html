@@ -572,32 +572,57 @@
         </a>
       </div>
       <!-- ventana modal -->
-      <div class="contenedor-modal">
+     
+      <div class="posicion-index contenedor-modal">
         <div class="contenedor-cerrar">
           <i class="fas fa-times fa-2x btn-cerrar" id="X"></i>
         </div>
         <form class="formulario" id="form">
-
           <div class="contenedor-nombre-email">
             <div class="contenedor-input-nombre tamaño-alt-30 columna">
               <label class="label-tamaño" for="nombre">Tu nombre</label>
-              <input type="text" class="input-box" id="nombre" name='nombre' required />
+              <input
+                type="text"
+                class="input-box"
+                id="nombre"
+                name="nombre"
+                required
+              />
             </div>
             <div class="contenedor-input-email tamaño-alt-30 columna">
               <label class="label-tamaño" for="correo">Tu correo</label>
-              <input type="email" class="input-box" id="correo" name="correo" required />
+              <input
+                type="email"
+                class="input-box"
+                id="correo"
+                name="correo"
+                required
+              />
             </div>
           </div>
 
           <div class="contenedor-textarea">
-            <textarea class="text-comentario" id="comentario" name="mensaje" placeholder="Tu mensaje aqui..." required></textarea>
+            <textarea
+              class="text-comentario"
+              id="comentario"
+              name="mensaje"
+              placeholder="Tu mensaje aqui..."
+              required
+            ></textarea>
           </div>
 
           <div class="contenedor-boton-enviar">
-            <input type="submit" class="input-box btn-enviar-mensaje" id='button' value="Enviar">
+            <input
+              type="submit"
+              class="input-box btn-enviar-mensaje"
+              id="button"
+              value="Enviar"
+            />
           </div>
         </form>
       </div>
+  
+
     </section>
     <footer class="pie-de-pagina vh-20 negro-mate centrar-texto">
       <p class="fuente-open-sans">
@@ -607,11 +632,13 @@
     </footer>
     <script src="./index.js" type="module"></script>
     <script src="./js/scroll-smooth.js"></script>
-    <script type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
 
-<script type="text/javascript">
-  emailjs.init('bwWJhtkK-OarfJi5s')
-</script>
+    <script type="text/javascript">
+      emailjs.init("bwWJhtkK-OarfJi5s");
+    </script>
   </body>
 </html>
