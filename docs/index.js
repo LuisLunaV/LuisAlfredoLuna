@@ -1,7 +1,8 @@
 import { enviarCorreo } from './js/mail.js';
 import { ventanaModal } from './js/ventana-modal.js';
 
-const navMenu = document.querySelector('.nav-contenedor');
+const navMenu = document.querySelector('.nav-contenedor'),
+      titulo = document.querySelector('.encabezado-titulo');
 
 const crearMenuHtml =()=>{
 
@@ -27,21 +28,13 @@ const crearMenuHtml =()=>{
     navMenu.innerHTML = html;
 }
 
+
+
 //Funcion que nos ayuda a detectar un cambio de tamaño en la pantalla.
 // window.addEventListener('resize', ( )=>{
 
-    if(screen.width <= 600){
-
-
-        do{
-            
-            navMenu.removeChild(navMenu.firstElementChild);
-    
-        }while(navMenu.firstElementChild);
-    
+    if(screen.width <= 600){    
             (navMenu.firstElementChild === true)?'' :crearMenuHtml();
-    
-    
     }
 
     ventanaModal();
