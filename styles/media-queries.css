@@ -1,369 +1,396 @@
 /* //Resolcion para dispositivos moviles pequeños: */
-@media (min-width:100px) and (max-width:375px){
+@media (min-width: 100px) and (max-width: 375px) {
+  /* Globales */
 
-    /* Globales */
+  header {
+    width: 50%;
+  }
+  h2 {
+    font-size: 5rem !important;
+  }
+  h3 {
+    font-size: 3rem !important;
+  }
 
-    header{
-        width: 50%;
-    }
-    h2{
-        font-size: 5rem !important;
-    }
-    h3{
-        font-size: 3rem !important;
-    
-    }
-
-    footer{
-        height: 10vh !important;
-    }
-/* Navegacion */
-.nav-contenedor{
+  footer {
+    height: 10vh !important;
+  }
+  /* Navegacion */
+  .nav-contenedor {
     height: 6rem;
-}
+  }
 
-.nombre-logo{
+  .nombre-logo {
     display: none;
-}
+  }
 
-.nav-principal{
+  .nav-principal {
     visibility: hidden;
     font-size: 1.2rem;
     justify-content: space-evenly;
     width: 80%;
-}
-
-    
-/* Seccion sobre mi */
-.sobre-mi{
-    height: auto;
-  grid-template-columns: 1fr;
-
-}
-.sobre-mi-informacion{
-    font-size: 1.5rem;
-}
-.contenedor-sobre-mi{
-    text-align: center;
-}
-    /* Tecnologias */
-.mis-tecnologias{
-    height: auto;
-}
-.contenedor-de-tecnologias{
-    grid-template-columns: 1fr;
-    margin-bottom: 2rem;
-
-}
-
-.informacion-tecnologia .info h2{
-    font-size: 2.3rem !important;
-}
-  
-  .informacion-tecnologia:hover > .info p {
-    font-size: 1.4rem;
-
   }
 
-/* Mis proyectos */
-.contenedor-de-tarjetas{
-    
+  /* Seccion sobre mi */
+  .sobre-mi {
+    height: auto;
     grid-template-columns: 1fr;
+  }
+  .sobre-mi-informacion {
+    font-size: 1.5rem;
+  }
+  .contenedor-sobre-mi {
+    text-align: center;
+  }
+  /* Tecnologias */
+  .mis-tecnologias {
+    height: auto;
+  }
+  .contenedor-de-tecnologias {
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+  }
 
-}
+  .informacion-tecnologia .info h2 {
+    font-size: 2.3rem !important;
+  }
 
-/* Contacto */
-.mi-contacto{
+  .informacion-tecnologia:hover > .info p {
+    font-size: 1.4rem;
+  }
+
+  /* Mis proyectos */
+  .contenedor-de-tarjetas {
+    grid-template-columns: 1fr;
+  }
+
+  /* Contacto */
+  .mi-contacto {
     height: 90vh;
-}
-.contacto-titulos{
+  }
+  .contacto-titulos {
     margin-bottom: 5rem;
-}
-.contacto-titulos h2{
+  }
+  .contacto-titulos h2 {
     font-size: 3rem !important;
-}
-.contacto-titulos h3{
+  }
+  .contacto-titulos h3 {
     font-size: 2.5rem !important;
-}
-.redes-de-contacto{
+  }
+  .redes-de-contacto {
     padding-top: 3rem !important;
     width: auto;
     flex-direction: column;
     align-items: flex-start;
-}
+  }
 
-.redes-de-contacto a{
+  .redes-de-contacto a {
     font-size: 2.5rem !important;
-}
-.pie-de-pagina{
+  }
+  .pie-de-pagina {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.pie-de-pagina p{
+  }
+  .pie-de-pagina p {
     font-size: 1.2rem;
   }
 
   /* mis servicios */
-.mis-servicios{
+  .mis-servicios {
     height: auto;
     padding-bottom: 2rem;
-}
-.contenedor-mis-servicios{
+  }
+  .contenedor-mis-servicios {
+    margin: 0;
     grid-template-columns: 1fr;
     row-gap: 1rem;
   }
-  .contenedor-de-servicio{
-      height: auto;
-      font-size: 1.7rem;
+  .contenedor-de-servicio {
+    height: auto;
+    font-size: 1.7rem;
   }
 
-    /* Modal */
-    .contenedor-modal{
-        margin-top: 8rem !important;
-    }
+  /* Modal */
+  .contenedor-modal {
+    margin-top: 8rem !important;
+  }
 
-    .formulario{
-        width: 31rem;
-      }
-    
-      .contenedor-nombre-email{
-        align-self: flex-start !important;
-        flex-direction: column;
-      }
-    
-      .text-comentario{
-        width: 29rem;
-      }
+  .formulario {
+    width: 31rem;
+  }
 
+  .contenedor-nombre-email {
+    align-self: flex-start !important;
+    flex-direction: column;
+  }
+
+  .text-comentario {
+    width: 29rem;
+  }
 }
-
-
-
 
 /* //Resolcion para dispositivos moviles pequeños: */
-@media (min-width:376px) and (max-width:602px){
+@media (min-width: 376px) and (max-width: 602px) {
+  /* Globales */
+  header {
+    width: 30%;
+  }
+  h2 {
+    font-size: 5rem !important;
+  }
+  h3 {
+    font-size: 3rem !important;
+  }
 
-    /* Globales */
-    header{
-        width: 30%;
-    }
-    h2{
-        font-size: 5rem !important;
-    }
-    h3{
-        font-size: 3rem !important;
-    
-    }
+  footer {
+    height: 10vh !important;
+  }
 
-    footer{
-        height: 10vh !important;
-    }
-
-/* Navegacion */
-.nav-contenedor{
+  /* Navegacion */
+  .nav-contenedor {
     height: 7rem;
-}
-.nombre-logo{
-display: none;
-}
-.nav-principal{
+  }
+  .nombre-logo {
+    display: none;
+  }
+  .nav-principal {
     visibility: hidden;
     display: none;
     font-size: 1.2rem;
     justify-content: space-evenly;
     width: 80%;
-}
-    
-/* Seccion sobre mi */
-.sobre-mi{
-    height: auto;
-  grid-template-columns: 1fr;
+  }
 
-}
-.contenedor-sobre-mi{
+  /* Seccion sobre mi */
+  .sobre-mi {
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .contenedor-sobre-mi {
     text-align: center;
-}
-    /* Tecnologias */
-.mis-tecnologias{
+  }
+  /* Tecnologias */
+  .mis-tecnologias {
     height: auto !important;
-}
-.contenedor-de-tecnologias{
+  }
+  .contenedor-de-tecnologias {
     grid-template-columns: 1fr;
     margin-bottom: 2rem;
+  }
 
-}
-
-/* Mis proyectos */
-.contenedor-de-tarjetas{
-    
+  /* Mis proyectos */
+  .contenedor-de-tarjetas {
     grid-template-columns: 1fr;
-
-}
+  }
   /* mis servicios */
-  .mis-servicios{
+  .mis-servicios {
     height: auto;
     padding-bottom: 2rem;
-}
-.contenedor-mis-servicios{
+  }
+  .contenedor-mis-servicios {
     grid-template-columns: 1fr;
     row-gap: 1rem;
   }
-  .contenedor-de-servicio{
-      height: auto;
+  .contenedor-de-servicio {
+    height: auto;
   }
 
   /* Modal */
-  .formulario{
+  .formulario {
     width: 33rem;
   }
 
-  .contenedor-nombre-email{
+  .contenedor-nombre-email {
     align-self: flex-start !important;
     flex-direction: column;
   }
 
-  .text-comentario{
+  .text-comentario {
     width: 30rem;
   }
-/* Contacto */
-.mi-contacto{
+  /* Contacto */
+  .mi-contacto {
     height: 90vh;
-}
-.contacto-titulos{
+  }
+  .contacto-titulos {
     margin-bottom: 6rem;
-}
-.redes-de-contacto{
+  }
+  .redes-de-contacto {
     margin-bottom: 2rem !important;
     width: auto;
     flex-direction: column;
     align-items: flex-start;
-}
-.pie-de-pagina p{
+  }
+  .pie-de-pagina p {
     font-size: 1.5rem;
   }
-
-
 }
 
 /* //Resolcion para dispositivos moviles medianos: */
-@media(min-width:603px) and (max-width:859px){
-    /* Globales */
-    header{
-        width: 30%;
-    }
-    h2{
-        font-size: 6rem !important;
-    }
-    h3{
-        font-size: 3rem !important;
-    
-    }
+@media (min-width: 603px) and (max-width: 859px) {
+  /* Globales */
+  header {
+    width: 30%;
+  }
+  h2 {
+    font-size: 6rem !important;
+  }
+  h3 {
+    font-size: 3rem !important;
+  }
 
-    lottie-player{
-        margin: 0 auto;
-    }
+  lottie-player {
+    margin: 0 auto;
+  }
 
-/* Navegacion */
+  /* Navegacion */
 
-    .nombre-logo{
-        font-size: 2.7rem;
-        margin: 1.7rem 1.5rem;
+  .nombre-logo {
+    font-size: 2.7rem;
+    margin: 1.7rem 1.5rem;
+  }
+  .nav-principal {
+    width: 85%;
+  }
 
-    }
-    .nav-principal{
-        width: 85%;
-    }
-
-/* Seccion sobre mi */
-.sobre-mi{
+  /* Seccion sobre mi */
+  .sobre-mi {
     height: auto;
-  grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
 
-}
-
-/* Tecnologias */
-.mis-tecnologias{
+  /* Tecnologias */
+  .mis-tecnologias {
     height: auto;
-}
-.contenedor-de-tecnologias{
+  }
+  .contenedor-de-tecnologias {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 2rem;
+  }
 
-}
-
-/* Mis proyectos */
-.contenedor-de-tarjetas{
+  /* Mis proyectos */
+  .contenedor-de-tarjetas {
     grid-template-columns: repeat(2, 1fr);
+  }
 
-}
-
-/* mis servicios */
-.mis-servicios{
+  /* mis servicios */
+  .mis-servicios {
     height: auto;
     padding-bottom: 2rem;
-}
-.contenedor-mis-servicios{
+  }
+  .contenedor-mis-servicios {
     grid-template-columns: 50rem;
     row-gap: 1rem;
   }
 
+  .contenedor-de-servicio {
+    border-radius: 1rem;
+  }
   /* Contactos */
 
-  .redes-de-contacto{
+  .redes-de-contacto {
     text-align: center;
   }
-
 }
 
 /* //Resolcion para tablets: */
-@media(min-width:860px) and (max-width:971px){
-    /* Globales */
+@media (min-width: 860px) and (max-width: 971px) {
+  /* Globales */
 
-h2{
+  h2 {
     font-size: 7rem !important;
-}
+  }
 
-h3{
+  h3 {
     font-size: 4rem !important;
+  }
 
-}
+  .contenedor-inicio h2 {
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 23ch;
+    animation: typing 2s steps(12), blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
 
-/* Navegacion */
-.nombre-logo{
+  /* Navegacion */
+  .nombre-logo {
     margin: 1.5rem 1.5rem;
     font-size: 3rem;
-}
-.nav-principal{
+  }
+  .nav-principal {
     width: 80%;
-}
-/* Tecnologias */
-.mis-tecnologias{
+  }
+  /* Tecnologias */
+  .mis-tecnologias {
     height: auto;
-}
-.contenedor-de-tecnologias{
+  }
+  .contenedor-de-tecnologias {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 2rem;
+  }
 
-}
-
-/* Mis proyectos */
-.contenedor-de-tarjetas{
+  /* Mis proyectos */
+  .contenedor-de-tarjetas {
     grid-template-columns: repeat(2, 1fr);
+  }
 
-}
-
-/* mis servicios */
-.mis-servicios{
+  /* mis servicios */
+  .mis-servicios {
     height: auto;
     padding-bottom: 2rem;
-}
-.contenedor-mis-servicios{
+  }
+  .contenedor-mis-servicios {
     grid-template-columns: 50rem;
     row-gap: 1rem;
   }
 
+  .contenedor-de-servicio {
+    border-radius: 1rem;
+  }
 }
 
 /* //Resolcion para pc de escritorio: */
-/* @media(min-width:972px){} */
+@media (min-width: 972px) and (max-width: 1147px) {
+  .contenedor-inicio h2 {
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 23ch;
+    animation: typing 2s steps(12), blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  .mis-servicios {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .contenedor-mis-servicios {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+  }
+  .contenedor-de-servicio {
+    border-radius: 1rem;
+  }
+}
