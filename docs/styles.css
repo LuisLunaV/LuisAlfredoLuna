@@ -52,10 +52,6 @@ footer {
 
 /* Uilidades*/
 
-/* Maquina de escribir */
-
-/* *********************************************/
-
 .negro-mate {
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
@@ -85,6 +81,7 @@ footer {
   overflow: hidden;
   height: 40rem;
 }
+
 .color-blanco {
   color: #fff;
 }
@@ -127,6 +124,7 @@ footer {
 .tamaño-de-fuente-8 {
   font-size: 8rem;
 }
+
 .vh-20 {
   height: 20vh;
 }
@@ -138,6 +136,13 @@ footer {
 }
 
 /* Navegacion */
+
+.menuppal{
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
 .nombre-logo {
   color: red;
   font-size: 4rem;
@@ -287,12 +292,24 @@ footer {
 }
 
 .informacion-tecnologia .info h2 {
+  font-family: "Ubuntu", sans-serif;
   font-size: 2rem !important;
   color: #181719;
   margin-bottom: 12rem;
   transition: all 500ms ease-out;
   margin-top: 1rem;
 }
+
+.informacion-tecnologia .info p {
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 22rem;
+  margin: auto;
+}
+
 .informacion-tecnologia:hover > .info h2 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
@@ -495,6 +512,7 @@ footer {
 }
 
 .contenedor-nombre-email {
+  color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

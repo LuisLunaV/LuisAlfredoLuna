@@ -81,6 +81,7 @@ footer {
   overflow: hidden;
   height: 40rem;
 }
+
 .color-blanco {
   color: #fff;
 }
@@ -123,6 +124,7 @@ footer {
 .tamaño-de-fuente-8 {
   font-size: 8rem;
 }
+
 .vh-20 {
   height: 20vh;
 }
@@ -134,6 +136,13 @@ footer {
 }
 
 /* Navegacion */
+
+.menuppal{
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
 .nombre-logo {
   color: red;
   font-size: 4rem;
@@ -503,6 +512,7 @@ footer {
 }
 
 .contenedor-nombre-email {
+  color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

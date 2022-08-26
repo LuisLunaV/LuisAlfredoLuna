@@ -15,9 +15,9 @@ export const enviarCorreo = () => {
       if (
         inputNombre.value   != "" &&
         inputCorreo.value   != "" &&
-        txtComentario.value != ""
-      ) {
-
+        inputCorreo.value.includes('@')&&
+        txtComentario.value != "" 
+         ){
 
         // Conecta con la API email.js y envia la informacion a su destino
         const btn = document.getElementById("button");
@@ -76,7 +76,6 @@ export const enviarCorreo = () => {
 
 //Agregamos la imagen lottie al contenedor modal.
 //Aviso visual de mensaje enviado
-
 const mensajeDeEnviado=()=>{
 
   const html = `    <lottie-player

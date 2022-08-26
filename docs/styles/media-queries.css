@@ -15,11 +15,14 @@
   footer {
     height: 10vh !important;
   }
-  /* Navegacion */
-  .nav-contenedor {
-    height: 6rem;
-  }
-
+    /* Navegacion */
+    .menu-responsive{
+      display: block;
+    }
+    .nav-contenedor {
+      display: none;
+    }
+    
   .nombre-logo {
     display: none;
   }
@@ -51,6 +54,10 @@
     margin-bottom: 2rem;
   }
 
+  .informacion-tecnologia{
+    max-width: 21rem;
+    max-height: 21rem;
+  }
   .informacion-tecnologia .info h2 {
     font-size: 2.3rem !important;
   }
@@ -148,9 +155,13 @@
   }
 
   /* Navegacion */
-  .nav-contenedor {
-    height: 7rem;
+  .menu-responsive{
+    display: block;
   }
+  .nav-contenedor {
+    display: none;
+  }
+
   .nombre-logo {
     display: none;
   }
@@ -217,11 +228,23 @@
   .contacto-titulos {
     margin-bottom: 6rem;
   }
+
+  .contacto-titulos h2 {
+    font-size: 3rem !important;
+  }
+  .contacto-titulos h3 {
+    font-size: 2.5rem !important;
+  }
+
   .redes-de-contacto {
     margin-bottom: 2rem !important;
     width: auto;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .redes-de-contacto a{
+    font-size: 2.5rem !important;
   }
   .pie-de-pagina p {
     font-size: 1.5rem;
@@ -247,6 +270,13 @@
 
   /* Navegacion */
 
+  .menu-responsive{
+    display: none;
+  }
+  .nav-contenedor {
+    display:flex;
+  }
+  
   .nombre-logo {
     font-size: 2.7rem;
     margin: 1.7rem 1.5rem;
@@ -293,6 +323,10 @@
   .redes-de-contacto {
     text-align: center;
   }
+  
+  .redes-de-contacto a{
+    font-size: 2.6rem !important;
+  }
 }
 
 /* //Resolcion para tablets: */
@@ -307,25 +341,15 @@
     font-size: 4rem !important;
   }
 
-  .contenedor-inicio h2 {
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 23ch;
-    animation: typing 2s steps(12), blink 0.5s infinite step-end alternate;
-    overflow: hidden;
-  }
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-  }
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
 
   /* Navegacion */
+  .menu-responsive{
+    display: none;
+  }
+  .nav-contenedor {
+    display:flex;
+  }
+
   .nombre-logo {
     margin: 1.5rem 1.5rem;
     font-size: 3rem;
@@ -360,27 +384,22 @@
   .contenedor-de-servicio {
     border-radius: 1rem;
   }
+
+  /* contacto */
+  .contacto-titulos h2{
+    font-size: 6rem !important;
+  }
 }
 
 /* //Resolcion para pc de escritorio: */
 @media (min-width: 972px) and (max-width: 1147px) {
-  .contenedor-inicio h2 {
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 23ch;
-    animation: typing 2s steps(12), blink 0.5s infinite step-end alternate;
-    overflow: hidden;
+  .menu-responsive{
+    display: none;
   }
-  @keyframes typing {
-    from {
-      width: 0;
-    }
+  .nav-contenedor {
+    display:flex;
   }
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
+
   .mis-servicios {
     height: auto;
     padding-bottom: 2rem;
@@ -394,3 +413,18 @@
     border-radius: 1rem;
   }
 }
+
+@media (min-width: 1148px){ 
+
+  .menu-responsive{
+    display: none;
+  }
+  .nav-contenedor {
+    display:flex;
+  }
+
+  .contenedor-de-servicio {
+    border-radius: 1rem;
+  }
+
+ }

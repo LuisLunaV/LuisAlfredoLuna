@@ -15,11 +15,14 @@
   footer {
     height: 10vh !important;
   }
-  /* Navegacion */
-  .nav-contenedor {
-    height: 6rem;
-  }
-
+    /* Navegacion */
+    .menu-responsive{
+      display: block;
+    }
+    .nav-contenedor {
+      display: none;
+    }
+    
   .nombre-logo {
     display: none;
   }
@@ -152,9 +155,13 @@
   }
 
   /* Navegacion */
-  .nav-contenedor {
-    height: 7rem;
+  .menu-responsive{
+    display: block;
   }
+  .nav-contenedor {
+    display: none;
+  }
+
   .nombre-logo {
     display: none;
   }
@@ -263,6 +270,13 @@
 
   /* Navegacion */
 
+  .menu-responsive{
+    display: none;
+  }
+  .nav-contenedor {
+    display:flex;
+  }
+  
   .nombre-logo {
     font-size: 2.7rem;
     margin: 1.7rem 1.5rem;
@@ -329,6 +343,13 @@
 
 
   /* Navegacion */
+  .menu-responsive{
+    display: none;
+  }
+  .nav-contenedor {
+    display:flex;
+  }
+
   .nombre-logo {
     margin: 1.5rem 1.5rem;
     font-size: 3rem;
@@ -372,6 +393,13 @@
 
 /* //Resolcion para pc de escritorio: */
 @media (min-width: 972px) and (max-width: 1147px) {
+  .menu-responsive{
+    display: none;
+  }
+  .nav-contenedor {
+    display:flex;
+  }
+
   .mis-servicios {
     height: auto;
     padding-bottom: 2rem;
@@ -387,6 +415,13 @@
 }
 
 @media (min-width: 1148px){ 
+
+  .menu-responsive{
+    display: none;
+  }
+  .nav-contenedor {
+    display:flex;
+  }
 
   .contenedor-de-servicio {
     border-radius: 1rem;
