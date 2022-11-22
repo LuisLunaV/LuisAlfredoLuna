@@ -595,3 +595,70 @@ footer {
     transform: scale(0.5);
   }
 }
+
+
+/* Boton-scroll */
+
+.scroll-top-btn {
+  position: fixed;
+  z-index: 999;
+  bottom: 1vh;
+  width: 4rem;
+  height: 4rem;
+  right: 2vw;
+  background-image: linear-gradient(62deg, #f0db4f 0%, #ffc52d 100%);
+  border-radius: 50%;
+  border: 2px solid #181719;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #181719;
+}
+
+.scroll-top-btn:hover {
+  /* background-color: var(--third-color); */
+  /* color:#212121; */
+  border: 2px solid #212121;
+}
+.ocultar {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+/* Animacion */
+.bola {
+
+  animation: subir-bajar 1s infinite;
+
+}
+
+
+
+.bola:hover {
+  
+  animation: none;
+  
+}
+
+
+@keyframes subir-bajar {
+  
+  50% {
+    
+    transform: translateY(-20%);
+    
+  }
+  
+}
+
+
+@keyframes transparencia {
+    
+  50% {
+    
+    opacity: 0.2;
+  }
+  
+}

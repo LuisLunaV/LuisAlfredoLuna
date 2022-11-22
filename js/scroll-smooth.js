@@ -7,7 +7,6 @@ window.onload = () => {
     linksMenu( linkMenu );
 
   };
-
   const linksMenu =( link )=>{
 
     let inicio = link[0];
@@ -37,6 +36,9 @@ window.onload = () => {
       scrollSuave("#contacto", 1000, 0);
     });
 
+    let boton = link[6];
+   ( boton )? boton.addEventListener("click", () => { scrollSuave("#inicio", 1000, 0) })
+           : '';
   };
   const scrollSuave = (objetivo, duracion, compensacion) => {
     let elemObj = document.querySelector(objetivo);
