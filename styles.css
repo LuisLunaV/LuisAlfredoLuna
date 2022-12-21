@@ -92,7 +92,9 @@ footer {
 .fuente-open-sans {
   font-family: "Open Sans";
 }
-
+.fuente-tech-mono{
+  font-family: 'Share Tech Mono', monospace;
+}
 .tamaño-ubuntu-weight {
   font-weight: 500;
 }
@@ -603,8 +605,8 @@ footer {
   position: fixed;
   z-index: 999;
   bottom: 1vh;
-  width: 4rem;
-  height: 4rem;
+  width: 6rem;
+  height: 6rem;
   right: 2vw;
   background-image: linear-gradient(62deg, #f0db4f 0%, #ffc52d 100%);
   border-radius: 50%;
