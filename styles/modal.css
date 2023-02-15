@@ -1,16 +1,35 @@
 /* ventana modal */
+
+/* utils */
+.posicion{
+    position: fixed;
+    bottom: 0;
+}
+.mostrar{
+    visibility: visible;
+}
+.ocultar{
+    visibility: hidden;
+}
+
+.tranformY-0{
+    /* contenedor */
+    transform: translateY(0%) !important;
+}
+
 .contenedor-modal {
     align-self: flex-start;
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: 12.5rem;
     height: 100%;
-    width: 0;
+    width: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: 0.9s;
+    
   }
   .formulario {
     background-color: rgba(0, 0, 0, 0.8);
@@ -23,6 +42,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    transition: all 500ms ease;
+    transform: translateY(-20%);
+
   }
   .input-box {
     display: inline;

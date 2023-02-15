@@ -7,33 +7,28 @@ const ventanaModal =()=>{
 
     seccionContacto.addEventListener('click', ( event )=>{
        
-        const btnMensaje = event.target.text,
-        btnCerrar  = event.composedPath()[0].id;
-             
+        const btnMensaje = event.target.text;
  
-        if( btnMensaje != undefined ){
 
             if(btnMensaje.trim() === 'Mensaje'){
-                ventanaDelFormulario.classList.add('ventana-completa');
-                cerrar.classList.remove('scale-down-center');
-                cerrar.classList.remove('no-visible');
-                form.classList.remove('scale-down-center');
-                form.classList.add('scale-up-center');
+                ventanaDelFormulario.classList.remove('ocultar');
+                ventanaDelFormulario.classList.add('mostrar');
 
+                form.classList.add('tranformY-0');
             }
-        };
-    
-
-        if( btnCerrar === 'X'){
-            ventanaDelFormulario.classList.remove('ventana-completa');
-            cerrar.classList.add('no-visible');
-            cerrar.classList.add('scale-down-center');
-            form.classList.add('scale-down-center');
-            form.classList.remove('scale-up-center');
-        };
-
+                
 });
+
+cerrar.addEventListener('click',()=>{
+    ventanaDelFormulario.classList.remove('mostrar');
+    ventanaDelFormulario.classList.add('ocultar');
+    form.classList.remove('tranformY-0');
+
+    });
+
 };
+
+
 
 export{
     ventanaModal,
