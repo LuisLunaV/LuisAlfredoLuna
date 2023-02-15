@@ -1,0 +1,114 @@
+/* ventana modal */
+.contenedor-modal {
+    align-self: flex-start;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 12.5rem;
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.9s;
+  }
+  .formulario {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 2rem;
+    border: 0.2rem solid #ffc52d;
+    width: auto;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-box {
+    display: inline;
+    width: auto;
+  }
+  
+  .contenedor-nombre-email {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .contenedor-textarea {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-comentario {
+    width: 37rem;
+    height: 20rem;
+  }
+  
+  .contenedor-boton-enviar {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .contenedor-cerrar {
+    width: 90%;
+  }
+  
+  .btn-cerrar {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: 0.5s;
+  }
+  
+  .btn-cerrar:hover {
+    transform: scale(1.1);
+  }
+  
+  .btn-enviar-mensaje {
+    font-family: monospace;
+    font-size: 1.6rem;
+    color: #ffc52d;
+    cursor: pointer;
+    border: 0.2rem solid #ffc52d;
+    border-radius: 0.6rem;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 1.2rem 3rem;
+    transition: 0.5s;
+  }
+  
+  .btn-enviar-mensaje:hover {
+    color: #fff;
+    background: #d35400;
+  }
+  
+  .scale-up-center {
+    animation: scale-up-center 1s;
+  }
+  @keyframes scale-up-center {
+    0% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .scale-down-center {
+    animation: scale-down-center 1s;
+  }
+  @keyframes scale-down-center {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.5);
+    }
+  }
+  
+  
