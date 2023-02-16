@@ -1,16 +1,17 @@
-import { seccionContacto } from "./ventana-modal.js";
-const inputNombre   = document.querySelector("#nombre"),
-      inputCorreo   = document.querySelector("#correo"),
-      txtComentario = document.querySelector("#comentario"),
-      contenedorModal = document.querySelector('.contenedor-modal');
+import { limpiarModal, mensajeDeEnviado, cerrarModal } from "./index.js";
+
+const contenedorModal = document.querySelector(".contenedor-modal");
+
 
 export const enviarCorreo = () => {
 
-  seccionContacto.addEventListener("click", (event) => {
+  const inputNombre   = document.querySelector("#nombre"),
+        inputCorreo   = document.querySelector("#correo"),
+        txtComentario = document.querySelector("#comentario"),
+        btnEnviar     = document.querySelector('.btn-enviar-mensaje');
 
-    const enviar = event.target.value;
     
-    if ( enviar == "Enviar") {
+  btnEnviar.addEventListener("click", ( ) => {
 
       if (
         inputNombre.value   != "" &&
@@ -49,12 +50,8 @@ export const enviarCorreo = () => {
           inputNombre.value   = "";
           inputCorreo.value   = "";
           txtComentario.value = "";
-          do{
-
-            contenedorModal.removeChild( contenedorModal.firstElementChild);
-            console.log('borrado')
-          }while(contenedorModal.firstElementChild)
-
+         
+          limpiarModal( contenedorModal );
 
         }, 1000);
 
@@ -63,29 +60,16 @@ export const enviarCorreo = () => {
           mensajeDeEnviado();
         },1500)
         
-        //Recargamos la pagina
         setTimeout(()=>{
-          location.reload()
+          contenedorModal.classList.remove('mostrar');
+          contenedorModal.classList.add('ocultar');
         },6000)
 
       } else console.log("completa los campos");
-    }
+    
   });
-};
-
-
-//Agregamos la imagen lottie al contenedor modal.
-//Aviso visual de mensaje enviado
-const mensajeDeEnviado=()=>{
-
-  const html = `    <lottie-player
-  src="https://assets1.lottiefiles.com/packages/lf20_2njvpkre.json"
-  background="transparent"
-  speed="1"
-  autoplay
-></lottie-player>
-`;
-
-contenedorModal.innerHTML += html;
 
 };
+
+mensajeDeEnviado( );
+
