@@ -1,4 +1,4 @@
-import { limpiarModal, mensajeDeEnviado, cerrarModal } from "./index.js";
+import { limpiarModal, mensajeDeEnviado } from "./index.js";
 
 const contenedorModal = document.querySelector(".contenedor-modal");
 
