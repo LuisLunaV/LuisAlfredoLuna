@@ -1,4 +1,3 @@
-import { enviarCorreo } from './js/mail.js';
 import { ventanaModal } from './js/ventana-modal.js';
 
 // selector
@@ -21,7 +20,6 @@ menu.addEventListener('click', toggleMenu, false);
 
 
     ventanaModal();
-    enviarCorreo();
 
 
 
