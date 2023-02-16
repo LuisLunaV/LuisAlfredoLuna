@@ -1,25 +1,37 @@
-const seccionContacto = document.querySelector(".mi-contacto"),
-  form = document.querySelector(".formulario"),
-  cerrar = document.querySelector(".btn-cerrar"),
-  ventanaDelFormulario = document.querySelector(".contenedor-modal");
+import { htmlFormulario, mostrarFormulario, cerrarModal, enviarCorreo } from './index.js';
+
+const seccionContacto      = document.querySelector(".mi-contacto"),
+      ventanaDelFormulario = document.querySelector(".contenedor-modal");
 
 const ventanaModal = () => {
+
   seccionContacto.addEventListener("click", (event) => {
+  
     const btnMensaje = event.target.text;
 
     if (btnMensaje.trim() === "Mensaje") {
-      ventanaDelFormulario.classList.remove("ocultar");
-      ventanaDelFormulario.classList.add("mostrar");
-
-      form.classList.add("tranformY-0");
+      
+      //Agregamos el componente al modal
+      htmlFormulario( );
+      //Agragamos la clase mostrar al modal
+      mostrarFormulario( ventanaDelFormulario );
+      //Enviamos los mensajes
+      enviarCorreo();
     }
+
+    //Agregamos la clase ocultar
+    cerrarModal( ventanaDelFormulario );
+
   });
 
-  cerrar.addEventListener("click", () => {
-    ventanaDelFormulario.classList.remove("mostrar");
-    ventanaDelFormulario.classList.add("ocultar");
-    form.classList.remove("tranformY-0");
-  });
+
+
+  
+
+
 };
+
+
+
 
 export { ventanaModal, seccionContacto };
