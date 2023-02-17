@@ -7,10 +7,12 @@ const ventanaModal = () => {
 
   seccionContacto.addEventListener("click", (event) => {
   
-    const btnMensaje = event.target.text;
-
-    if (btnMensaje.trim() === "Mensaje") {
-      
+    /**Recorremos los elementos desde donde dimos 'click', hasta encontrar
+     * el nodo con el selector especificado.
+     */
+    const btnMensaje = event.target.closest('.btn-mensaje');
+    
+    if (btnMensaje) {     
       //Agregamos el componente al modal
       htmlFormulario( );
       //Agragamos la clase mostrar al modal
