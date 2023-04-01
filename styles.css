@@ -253,12 +253,13 @@ footer {
 
 /* Tecnologias */
 .mis-tecnologias {
-  padding-top: 4rem;
+  padding: 4rem,0;
 }
 .contenedor-de-tecnologias {
+  margin: 0 1.5rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 5rem;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4rem;
 }
 .informacion-tecnologia {
   border-radius: 15px;
